@@ -1,0 +1,7 @@
+A = [31, 41, 59, 26, 41, 58]
+v = 59
+
+for j = 1 to A.length
+    do if v = A[j]
+        return j
+return nil
